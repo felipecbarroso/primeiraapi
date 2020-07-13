@@ -28,7 +28,7 @@ routes.post("/users", (req, res) =>{
 routes.post("/users", (req, res) =>{
     const { nome, sobrenome, idade } = req.body;
     console.log(req.body);
-    return res.json({msg: `Meu nome é ${nome} ${sobrenome} e tenho ${idade} anos.`});
+    return res.json({msg: `Meu nomee é ${nome} ${sobrenome} e tenho ${idade} anos.`});
 });
 
 module.exports = routes;
