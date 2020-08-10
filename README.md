@@ -1,6 +1,6 @@
-#API
+# API
 
-##COMANDOS
+## COMANDOS
 
 Criar node_modules
 ```
@@ -15,3 +15,7 @@ Rodar API com nodemon
 ```
 npm run dev
 ```
+
+## ENV
+
+Criar arquivo **.env** do **.env.example**
